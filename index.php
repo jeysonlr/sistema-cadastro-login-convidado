@@ -24,4 +24,4 @@ if($sql->rowCount() > 0) {
 ?>
 <h1>Area interna do sistema</h1>
 <p>Usuário: <?php echo $nome." - E-mail: ".$email; ?> - <a href="logout.php">Sair</a></p>
-<p>Link: http://projetoy.pc/modulophpintermediario/registro_convite/cadastrar.php?codigo=<?php echo $codigo; ?></p>
+<p>Link para cadastro: http://projetoy.pc/modulophpintermediario/registro_convite/cadastrar.php?codigo=<?php echo $codigo; ?></p>
